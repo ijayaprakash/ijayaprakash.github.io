@@ -3,7 +3,7 @@
 jQuery(document).ready(function ($) {
     $("#spig").mousedown(function (e) {
         if(e.which==3){
-        showMessage("秘密通道:<br /><a href=\"http://robotkang.cc/liuyan/\" title=\"留言\">留言</a>    <a href=\"http://robotkang.cc/#blog\" title=\"首页\">首页</a>",10000);
+        showMessage("Secret Passage:<br /><a href=\"htp://blog.ijayaprakash.in/\" title=\"Leave a message\">Leave a message</a>    <a href=\"http://robotkang.cc/#blog\" title=\"首页\">首页</a>",10000);
 }
 });
 $("#spig").bind("contextmenu", function(e) {
