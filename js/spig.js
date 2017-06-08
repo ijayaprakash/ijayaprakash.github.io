@@ -3,7 +3,7 @@
 jQuery(document).ready(function ($) {
     $("#spig").mousedown(function (e) {
         if(e.which==3){
-        showMessage("Secret Passage:<br /><a href=\"hhtp://blog.ijayaprakash.in/\" title=\"Leave a message\">Leave a message</a>    
+        showMessage("Secret Passage:<br /><a href=\"hhtp://blog.ijayaprakash.in/\" title=\"Leave a message\">Leave a message</a> ;   
 }
 });
 $("#spig").bind("contextmenu", function(e) {
