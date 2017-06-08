@@ -125,7 +125,7 @@ jQuery(document).ready(function ($) {
 jQuery(document).ready(function ($) {
 
     window.setInterval(function () {
-        msgs = ["播报明日天气<iframe name=\"xidie\" src=\"http://heartmoving.com/skin/2020-0601.html\"frameborder=\“0\” scrolling=\"no\" height=\"15px\"  width=\"130px\" allowtransparency=\"true\" ></iframe>", "陪我聊天吧！", "<a href=\"http://messense.me/feed/\" target=\"_blank\" rel=\"external\" tip=\"Feed\"><img border=\"0\" title=\"订阅乱了感觉\" alt=\"Feed\" src=\"/dsimg/weipayimg.jpg\" width=\"80\" height=\"80\"></a>", "好无聊哦，你都不陪我玩！", "…@……!………", "^%#&*!@*(&#)(!)(", "我可爱吧！嘻嘻!~^_^!~~","谁淫荡呀?~谁淫荡?，你淫荡呀!~~你淫荡！~~","从前有座山，山上有座庙，庙里有个老和尚给小和尚讲故事，讲：“从前有座……”"];
+        msgs = ["Broadcast tomorrow weather<iframe name=\"xidie\" src=\"http://heartmoving.com/skin/2020-0601.html\"frameborder=\“0\” scrolling=\"no\" height=\"15px\"  width=\"130px\" allowtransparency=\"true\" ></iframe>", "Fight with me！", "<a href=\"http://messense.me/feed/\" target=\"_blank\" rel=\"external\" tip=\"Feed\"><img border=\"0\" title=\"Subscribe to chaos feeling\" alt=\"Feed\" src=\"/dsimg/weipayimg.jpg\" width=\"80\" height=\"80\"></a>", "So boring, oh, you dont play with me！", "…@……!………", "^%#&*!@*(&#)(!)(", "I am Goku！Hee hee hee!~^_^!~~","Who is weak?~Who is weak?，Your weak!~~Your weak ashole！~~","There used to be a mountain，There is an old monk in the temple to tell the story of the little Goku，speak：“There used to be a seat……”"];
         var i = Math.floor(Math.random() * msgs.length);
         showMessage(msgs[i], 10000);
     }, 35000);
@@ -134,7 +134,7 @@ jQuery(document).ready(function ($) {
 //无聊动动
 jQuery(document).ready(function ($) {
     window.setInterval(function () {
-        msgs = ["播报明日天气<iframe name=\"xidie\" src=\"http://heartmoving.com/skin/2020-0601.html\"frameborder=\“0\” scrolling=\"no\" height=\"15px\"  width=\"130px\" allowtransparency=\"true\" ></iframe>", "快快订阅我的博客吧！<a href=\"http://robotkang.cc/\" target=\"_blank\" rel=\"external\" tip=\"Feed\"><img border=\"0\" title=\"订阅乱了感觉\" alt=\"Feed\" src=\"/dsimg/weipayimg.jpg\" width=\"80\" height=\"80\"></a>", "乾坤大挪移！", "我飘过来了！~", "我飘过去了", "我得意地飘！~飘！~"];
+        msgs = ["Broadcast tomorrow weather<iframe name=\"xidie\" src=\"http://heartmoving.com/skin/2020-0601.html\"frameborder=\“0\” scrolling=\"no\" height=\"15px\"  width=\"130px\" allowtransparency=\"true\" ></iframe>", "Quickly subscribe to my blog！<a href=\"http://blog.ijayaprakash.in/\" target=\"_blank\" rel=\"external\" tip=\"Feed\"><img border=\"0\" title=\"Subscribe to chaos feeling\" alt=\"Feed\" src=\"/dsimg/weipayimg.jpg\" width=\"80\" height=\"80\"></a>", "Heaven and earth big diversion！", "I drifted over！~", "I drifted over", "I am proud to float！~float！~"];
         var i = Math.floor(Math.random() * msgs.length);
         s = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6,0.7,0.75,-0.1, -0.2, -0.3, -0.4, -0.5, -0.6,-0.7,-0.75];
         var i1 = Math.floor(Math.random() * s.length);
@@ -153,7 +153,7 @@ jQuery(document).ready(function ($) {
 //评论资料
 jQuery(document).ready(function ($) {
     $("#author").click(function () {
-        showMessage("留下你的尊姓大名！");
+        showMessage("Leave your name ！");
         $(".spig").animate({
             top: $("#author").offset().top - 70,
             left: $("#author").offset().left - 170
@@ -164,7 +164,7 @@ jQuery(document).ready(function ($) {
 		});
     });
     $("#email").click(function () {
-        showMessage("留下你的邮箱，不然就是无头像人士了！");
+        showMessage("Leave your mailbox，Or is no avatar of the people！");
         $(".spig").animate({
             top: $("#email").offset().top - 70,
             left: $("#email").offset().left - 170
@@ -176,7 +176,7 @@ jQuery(document).ready(function ($) {
     });
     $("#url").click(function () {
 
-        showMessage("快快告诉我你的家在哪里，好让我去参观参观！");
+        showMessage("Quickly tell me where your home is, so that I can visit ！");
         $(".spig").animate({
             top: $("#url").offset().top - 70,
             left: $("#url").offset().left - 170
@@ -187,7 +187,7 @@ jQuery(document).ready(function ($) {
 		});
     });
     $("#comment").click(function () {
-        showMessage("认真填写哦！不然会被认作垃圾评论的！我的乖乖~");
+        showMessage("Seriously fill in Oh! Otherwise it will be considered spam comments! My obediently~");
         $(".spig").animate({
             top: $("#comment").offset().top - 70,
             left: $("#comment").offset().left - 170
@@ -221,11 +221,11 @@ jQuery(document).ready(function ($) {
         if (!ismove) {
             stat_click++;
             if (stat_click > 4) {
-                msgs = ["你有完没完呀？", "你已经摸我" + stat_click + "次了", "非礼呀！救命！OH，My ladygaga"];
+                msgs = ["You have finished it？", "You have touched me" + stat_click + "Again", "Indecent！Help！OH，My ladygaga"];
                 var i = Math.floor(Math.random() * msgs.length);
                 //showMessage(msgs[i]);
             } else {
-                msgs = ["筋斗云！~我飞！", "我跑呀跑呀跑！~~", "别摸我，大男人，有什么好摸的！", "惹不起你，我还躲不起你么？", "不要摸我了，我会告诉老婆来打你的！", "干嘛动我呀！小心我咬你！"];
+                msgs = ["Somersault ~ I fly！", "I ran and ran！~~", "！", "？", "不！", "！"];
                 var i = Math.floor(Math.random() * msgs.length);
                 //showMessage(msgs[i]);
             }
