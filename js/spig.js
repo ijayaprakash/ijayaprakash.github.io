@@ -38,19 +38,19 @@ jQuery(document).ready(function ($) {
     if (isindex) { //如果是主页
         var now = (new Date()).getHours();
         if (now > 0 && now <= 6) {
-            showMessage(visitor + ' 你是夜猫子呀？还不睡觉，明天起的来么你？', 6000);
+            showMessage(visitor + ' Are you a night owl? Do not sleep，tomorrow？', 6000);
         } else if (now > 6 && now <= 11) {
-            showMessage(visitor + ' 早上好，早起的鸟儿有虫吃噢！早起的虫儿被鸟吃，你是鸟儿还是虫儿？嘻嘻！', 6000);
+            showMessage(visitor + ' Good morning，！', 6000);
         } else if (now > 11 && now <= 14) {
-            showMessage(visitor + ' 中午了，吃饭了么？不要饿着了，饿死了谁来挺我呀！', 6000);
+            showMessage(visitor + ' At noon，,！', 6000);
         } else if (now > 14 && now <= 18) {
-            showMessage(visitor + ' 下午的时光真难熬！还好有你在！', 6000);
+            showMessage(visitor + ' Afternoon time really tough！Fortunately, you are there！', 6000);
         } else {
-            showMessage(visitor + ' 快来逗我玩吧！', 6000);
+            showMessage(visitor + ' Come and play me now！', 6000);
         }
     }
     else {
-        showMessage('欢迎' + visitor + '来到亢志军的个人博客《' + title + '》', 6000);
+        showMessage('welcome' + visitor + 'to my personal blog《' + title + '》', 6000);
     }
     $(".spig").animate({
         top: $(".spig").offset().top + 300,
@@ -65,58 +65,58 @@ jQuery(document).ready(function ($) {
 //鼠标在某些元素上方时
 jQuery(document).ready(function ($) {
     $('h2 a').click(function () {//标题被点击时
-        showMessage('正在用吃奶的劲加载《<span style="color:#0099cc;">' + $(this).text() + '</span>》请稍候');
+        showMessage('we are loading《<span style="color:#0099cc;">' + $(this).text() + '</span>》Please wait');
     });
     $('h2 a').mouseover(function () {
-        showMessage('要看看《<span style="color:#0099cc;">' + $(this).text() + '</span>》这篇文章么？');
+        showMessage('To see《<span style="color:#0099cc;">' + $(this).text() + '</span>》What about this article?？');
     });
     $('#prev-page').mouseover(function(){
-        showMessage('要翻到上一页吗?');
+        showMessage('Would you like to turn to the previous page??');
     });
     $('#next-page').mouseover(function(){
-        showMessage('要翻到下一页吗?');
+        showMessage('Would you like to turn to the next page??');
     });
     $('#index-links li a').mouseover(function () {
-        showMessage('去 <span style="color:#0099cc;">' + $(this).text() + '</span> 逛逛');
+        showMessage('go with <span style="color:#0099cc;">' + $(this).text() + '</span> Scroll around');
     });
     $('.comments').mouseover(function () {
-        showMessage('<span style="color:#0099cc;">' + visitor + '</span> 向评论栏出发吧！');
+        showMessage('<span style="color:#0099cc;">' + visitor + '</span> Go to the comment bar！');
     });
     $('#submit').mouseover(function () {
-        showMessage('确认提交了么？');
+        showMessage('Are you sure to submit?？');
     });
     $('#s').mouseover(function () {
-        showMessage('输入你想搜索的关键词再按Enter(回车)键就可以搜索啦!');
+        showMessage('Enter the keywords you want to search forEnter(Enter)You can search for friends!');
     });
     $('#go-prev').mouseover(function () {
-        showMessage('点它可以后退哦！');
+        showMessage('It can be back！');
     });
     $('#go-next').mouseover(function () {
-        showMessage('点它可以前进哦！');
+        showMessage('It can go ahead！');
     });
     $('#refresh').mouseover(function () {
-        showMessage('点它可以重新载入此页哦！');
+        showMessage('It can reload this page！');
     });
     $('#go-home').mouseover(function () {
-        showMessage('点它就可以回到首页啦！');
+        showMessage('It can go back to the home page！');
     });
     $('#addfav').mouseover(function () {
-        showMessage('点它可以把此页加入书签哦！');
+        showMessage('It can add this page to the bookmark！');
     });
     $('#nav-two a').mouseover(function () {
-        showMessage('嘘，从这里可以进入控制面板的哦！');
+        showMessage('Hush, from here you can enter the control panel Oh！');
     });
     $('.post-category a').mouseover(function () {
-        showMessage('点击查看此分类下得所有文章');
+        showMessage('Click to view all articles under this category');
     });
     $('.post-heat a').mouseover(function () {
-        showMessage('点它可以直接跳到评论列表处.');
+        showMessage('Point it can jump directly to the comment list.');
     });
     $('#tho-shareto span a').mouseover(function () {
-        showMessage('你知道吗?点它可以分享本文到'+$(this).attr('title'));
+        showMessage('Do you know? It can share this article'+$(this).attr('title'));
     });
     $('#switch-to-wap').mouseover(function(){
-        showMessage('点击可以切换到手机版博客版面');
+        showMessage('Click to switch to the mobile version of the blog layout');
     });
 });
 
