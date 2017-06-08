@@ -6,10 +6,7 @@ date: 2017-03-01
 <a href="/photos/" target="_blank"><img src="https://pbs.twimg.com/profile_images/861993126986121216/uGmhXVJv_400x400.jpg" width="150" height="150" alt="photos"/></a>
 
 <p>
-一 Maker「」<a href="{{ site.baseurl }}/jianli.pdf" target="_blank"> 「」 </a>    
-
-
-<div style="color:#FF6633">
+ <div style="color:#FF6633">
 <p>	
 </p>
 </div>
