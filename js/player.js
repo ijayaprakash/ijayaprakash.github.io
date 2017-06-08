@@ -27,7 +27,7 @@
 	    $('#QPlayer .cover').attr('title', 'Click to close the shuffle');
 	} else {
 		isShuffle = false;
-	    $('#QPlayer .cover').attr('title', '点击开启随机播放');
+	    $('#QPlayer .cover').attr('title', 'Click to open the shuffle');
 	}
 
 	//判断是否显示滚动条
@@ -147,7 +147,7 @@
 	var loadMusic = function(i){
 		var item = playlist[i];
 		while (item.mp3 == "") {
-	        showNotification('歌曲地址为空，已自动跳过');
+	        showNotification('Song address is empty, has been automatically skipped');
 			if (isShuffle) {
 				if (++shuffleIndex === shuffleArray.length) {
 			    	shuffleIndex = 0;
