@@ -1,48 +1,27 @@
 # Basic
-title: 亢志军
-subtitle: 自留地
-description: 欢迎来到我的个人网站~
-# 头像里面的标题
+title: iJAYAPRAKASH
+subtitle: nothing MUCH
 avatarTitle: RobotKang
 # 头像里面的描述
-avatarDesc: Python/机器学习/嵌入式
-url: "http://robotkang.cc"
+avatarDesc: Python/
+url: "http://ijayaprakash.in"
 
 # Comment
 comment:
-    provider: duoshuo
-    duoshuo:
-     short_name: robotkang
+    provider: 
+    
+    short_name: joshi
 
 # Social
 social:
-    weibo: 123456789
-    weixing: kang1390305137 
-    github: MengZheK
     # twitter: 
-    mail: robotkang@foxmail.com
-    csdn: robotkang
-
-# 百度统计 
-# 使用博客模板请去掉或者更换 id 
-baidu:
-    id: 144d500dd9ac4a65465a14b95f3e4ade 
-
+    mail: IJAYAPRAKASHJOSHI@gmail.com
+    
+ 
 # Google Analytics
-# 使用博客模板请去掉或者更换 id
-#ga:
 # id: UA-84134159-3   
 #  host: auto  
 
-
-# 《----------------- 上面的信息修改成你自己的 ---------------------------》
-#
-#
-#  _post/ 下的文章更换成你自己的文章
-#  帮忙star一下，感谢~😆 地址： https://github.com/MengZheK/kangblog.github.io
-#
-#
-# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
 
 
 permalink: /:year/:month/:title/
