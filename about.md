@@ -3,7 +3,7 @@ layout: page
 title: 「ABOUT ME」 
 date: 2017-03-01 
 ---
-<a href="/photos/" target="_blank"><img src="https://lh3.googleusercontent.com/-k6Wois_YvGk/AAAAAAAAAAI/AAAAAAAAAL4/ByI7dwoaGgE/s60-p-no/photo.jpg" width="150" height="150" alt="photos"/></a>
+<a href="/photos/" target="_blank"><img src="https://plus.google.com/u/0/photos/115889831304566128781/albums/profile/6429183565722027730" width="150" height="150" alt="photos"/></a>
 
 <p>
 一 Maker「」<a href="{{ site.baseurl }}/jianli.pdf" target="_blank"> 「」 </a>    
