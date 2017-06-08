@@ -125,7 +125,7 @@ jQuery(document).ready(function ($) {
 jQuery(document).ready(function ($) {
 
     window.setInterval(function () {
-        msgs = ["Broadcast tomorrow weather<iframe name=\"xidie\" src=\"http://heartmoving.com/skin/2020-0601.html\"frameborder=\“0\” scrolling=\"no\" height=\"15px\"  width=\"130px\" allowtransparency=\"true\" ></iframe>", "Fight with me！", "<a href=\"http://messense.me/feed/\" target=\"_blank\" rel=\"external\" tip=\"Feed\"><img border=\"0\" title=\"Subscribe to chaos feeling\" alt=\"Feed\" src=\"/dsimg/weipayimg.jpg\" width=\"80\" height=\"80\"></a>", "So boring, oh, you dont play with me！", "…@……!………", "^%#&*!@*(&#)(!)(", "I am Goku！Hee hee hee!~^_^!~~","Who is weak?~Who is weak?，Your weak!~~Your weak ashole！~~","There used to be a mountain，There is an old monk in the temple to tell the story of the little Goku，speak：“There used to be a seat……”"];
+        msgs = ["Broadcast tomorrow weather<iframe name=\"xidie\" src=\"http://heartmoving.com/skin/2020-0601.html\"frameborder=\“0\” scrolling=\"no\" height=\"15px\"  width=\"130px\" allowtransparency=\"true\" ></iframe>", "Fight with me！", "<a href=\"http://messense.me/feed/\" target=\"_blank\" rel=\"external\" tip=\"Feed\"><img border=\"0\" title=\"Subscribe to chaos feeling\" alt=\"Feed\" src=\"\" width=\"80\" height=\"80\"></a>", "So boring, oh, you dont play with me！", "…@……!………", "^%#&*!@*(&#)(!)(", "I am Goku！Hee hee hee!~^_^!~~","Who is weak?~Who is weak?，Your weak!~~Your weak ashole！~~","There used to be a mountain，There is an old monk in the temple to tell the story of the little Goku，speak：“There used to be a seat……”"];
         var i = Math.floor(Math.random() * msgs.length);
         showMessage(msgs[i], 10000);
     }, 35000);
@@ -134,7 +134,7 @@ jQuery(document).ready(function ($) {
 //无聊动动
 jQuery(document).ready(function ($) {
     window.setInterval(function () {
-        msgs = ["Broadcast tomorrow weather<iframe name=\"xidie\" src=\"http://heartmoving.com/skin/2020-0601.html\"frameborder=\“0\” scrolling=\"no\" height=\"15px\"  width=\"130px\" allowtransparency=\"true\" ></iframe>", "Quickly subscribe to my blog！<a href=\"http://blog.ijayaprakash.in/\" target=\"_blank\" rel=\"external\" tip=\"Feed\"><img border=\"0\" title=\"Subscribe to chaos feeling\" alt=\"Feed\" src=\"/dsimg/weipayimg.jpg\" width=\"80\" height=\"80\"></a>", "Heaven and earth big diversion！", "I drifted over！~", "I drifted over", "I am proud to float！~float！~"];
+        msgs = ["Broadcast tomorrow weather<iframe name=\"xidie\" src=\"http://heartmoving.com/skin/2020-0601.html\"frameborder=\“0\” scrolling=\"no\" height=\"15px\"  width=\"130px\" allowtransparency=\"true\" ></iframe>", "Quickly subscribe to my blog！<a href=\"http://blog.ijayaprakash.in/\" target=\"_blank\" rel=\"external\" tip=\"Feed\"><img border=\"0\" title=\"Subscribe to chaos feeling\" alt=\"Feed\" src=\"\" width=\"80\" height=\"80\"></a>", "Heaven and earth big diversion！", "I drifted over！~", "I drifted over", "I am proud to float！~float！~"];
         var i = Math.floor(Math.random() * msgs.length);
         s = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6,0.7,0.75,-0.1, -0.2, -0.3, -0.4, -0.5, -0.6,-0.7,-0.75];
         var i1 = Math.floor(Math.random() * s.length);
