@@ -1,5 +1,5 @@
 /* spig.js */
-//右键菜单
+//Right click (Menu)
 jQuery(document).ready(function ($) {
     $("#spig").mousedown(function (e) {
         if(e.which==3){
@@ -11,7 +11,7 @@ $("#spig").bind("contextmenu", function(e) {
 });
 });
 
-//鼠标在消息上时
+//when the mouse is on the message
 jQuery(document).ready(function ($) {
     $("#message").hover(function () {
        $("#message").fadeTo("100", 1);
@@ -19,7 +19,7 @@ jQuery(document).ready(function ($) {
 });
 
 
-//鼠标在上方时
+//when the mouse is on the Top
 jQuery(document).ready(function ($) {
     //$(".mumu").jrumble({rangeX: 2,rangeY: 2,rangeRot: 1});
     $(".mumu").mouseover(function () {
@@ -35,7 +35,7 @@ jQuery(document).ready(function ($) {
 
 //开始
 jQuery(document).ready(function ($) {
-    if (isindex) { //如果是主页
+    if (isindex) { //if it is the Homepage
         var now = (new Date()).getHours();
         if (now > 0 && now <= 6) {
             showMessage(visitor + ' 你是夜猫子呀？还不睡觉，明天起的来么你？', 6000);
@@ -113,28 +113,28 @@ jQuery(document).ready(function ($) {
         showMessage('点它可以直接跳到评论列表处.');
     });
     $('#tho-shareto span a').mouseover(function () {
-        showMessage('你知道吗?点它可以分享本文到'+$(this).attr('title'));
+        showMessage('Do you know? It can share this article'+$(this).attr('title'));
     });
     $('#switch-to-wap').mouseover(function(){
-        showMessage('点击可以切换到手机版博客版面');
+        showMessage('Click to switch to the mobile version of the blog layout');
     });
 });
 
 
-//无聊讲点什么
+//Bored to say something
 jQuery(document).ready(function ($) {
 
     window.setInterval(function () {
-        msgs = ["播报明日天气<iframe name=\"xidie\" src=\"http://heartmoving.com/skin/2020-0601.html\"frameborder=\“0\” scrolling=\"no\" height=\"15px\"  width=\"130px\" allowtransparency=\"true\" ></iframe>", "陪我聊天吧！", "<a href=\"http://messense.me/feed/\" target=\"_blank\" rel=\"external\" tip=\"Feed\"><img border=\"0\" title=\"订阅乱了感觉\" alt=\"Feed\" src=\"/dsimg/weipayimg.jpg\" width=\"80\" height=\"80\"></a>", "好无聊哦，你都不陪我玩！", "…@……!………", "^%#&*!@*(&#)(!)(", "我可爱吧！嘻嘻!~^_^!~~","谁淫荡呀?~谁淫荡?，你淫荡呀!~~你淫荡！~~","从前有座山，山上有座庙，庙里有个老和尚给小和尚讲故事，讲：“从前有座……”"];
+        msgs = ["Broadcast tomorrow weather<iframe name=\"xidie\" src=\"http://heartmoving.com/skin/2020-0601.html\"frameborder=\“0\” scrolling=\"no\" height=\"15px\"  width=\"130px\" allowtransparency=\"true\" ></iframe>", "Chat with me！", "<a href=\"http://messense.me/feed/\" target=\"_blank\" rel=\"external\" tip=\"Feed\"><img border=\"0\" title=\"Subscribe to chaos feeling\" alt=\"Feed\" src=\"/dsimg/weipayimg.jpg\" width=\"80\" height=\"80\"></a>", "So boring, oh, you do not play with me! "..." ... ... ... ... ... ... "," ^% # & *! @ * (& #) (!) ("," I am cute! Hee hee! ~ ^ _ ^! ~~ " ……”"];
         var i = Math.floor(Math.random() * msgs.length);
         showMessage(msgs[i], 10000);
     }, 35000);
 });
 
-//无聊动动
+//Boring move
 jQuery(document).ready(function ($) {
     window.setInterval(function () {
-        msgs = ["播报明日天气<iframe name=\"xidie\" src=\"http://heartmoving.com/skin/2020-0601.html\"frameborder=\“0\” scrolling=\"no\" height=\"15px\"  width=\"130px\" allowtransparency=\"true\" ></iframe>", "快快订阅我的博客吧！<a href=\"http://robotkang.cc/\" target=\"_blank\" rel=\"external\" tip=\"Feed\"><img border=\"0\" title=\"订阅乱了感觉\" alt=\"Feed\" src=\"/dsimg/weipayimg.jpg\" width=\"80\" height=\"80\"></a>", "乾坤大挪移！", "我飘过来了！~", "我飘过去了", "我得意地飘！~飘！~"];
+        msgs = ["Broadcast tomorrow weather<iframe name=\"xidie\" src=\"http://heartmoving.com/skin/2020-0601.html\"frameborder=\“0\” scrolling=\"no\" height=\"15px\"  width=\"130px\" allowtransparency=\"true\" ></iframe>", "Quickly subscribe to my blog！<a href=\"http://blog.ijayaprakash.in/\" target=\"_blank\" rel=\"external\" tip=\"Feed\"><img border=\"0\" title=\"Subscribe to chaos feeling\" alt=\"Feed\" src=\"/dsimg/weipayimg.jpg\" width=\"80\" height=\"80\"></a>", "Heaven and earth big diversion! "I drank over!" ~ "," I drifted over "," I am proud to float! " ~ Gone with the Wind！~"];
         var i = Math.floor(Math.random() * msgs.length);
         s = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6,0.7,0.75,-0.1, -0.2, -0.3, -0.4, -0.5, -0.6,-0.7,-0.75];
         var i1 = Math.floor(Math.random() * s.length);
@@ -150,10 +150,10 @@ jQuery(document).ready(function ($) {
     }, 45000);
 });
 
-//评论资料
+//
 jQuery(document).ready(function ($) {
     $("#author").click(function () {
-        showMessage("留下你的尊姓大名！");
+        showMessage("Leave your Name and Phno！");
         $(".spig").animate({
             top: $("#author").offset().top - 70,
             left: $("#author").offset().left - 170
@@ -164,7 +164,7 @@ jQuery(document).ready(function ($) {
 		});
     });
     $("#email").click(function () {
-        showMessage("留下你的邮箱，不然就是无头像人士了！");
+        showMessage("Leave your mailbox, or No avatar people！");
         $(".spig").animate({
             top: $("#email").offset().top - 70,
             left: $("#email").offset().left - 170
@@ -176,7 +176,7 @@ jQuery(document).ready(function ($) {
     });
     $("#url").click(function () {
 
-        showMessage("快快告诉我你的家在哪里，好让我去参观参观！");
+        showMessage("Quickly tell me where your home is, so that I can visit it！");
         $(".spig").animate({
             top: $("#url").offset().top - 70,
             left: $("#url").offset().left - 170
@@ -187,7 +187,7 @@ jQuery(document).ready(function ($) {
 		});
     });
     $("#comment").click(function () {
-        showMessage("认真填写哦！不然会被认作垃圾评论的！我的乖乖~");
+        showMessage("Seriously fill in Oh! Otherwise it will be considered spam comments! My obediently~");
         $(".spig").animate({
             top: $("#comment").offset().top - 70,
             left: $("#comment").offset().left - 170
@@ -200,7 +200,7 @@ jQuery(document).ready(function ($) {
 });
 
 var spig_top = 50;
-//滚动条移动
+//mOVE tHE Scroll Bar
 jQuery(document).ready(function ($) {
     var f = $(".spig").offset().top;
     $(window).scroll(function () {
@@ -214,18 +214,18 @@ jQuery(document).ready(function ($) {
     });
 });
 
-//鼠标点击时
+//When the mouse is clicked
 jQuery(document).ready(function ($) {
     var stat_click = 0;
     $(".mumu").click(function () {
         if (!ismove) {
             stat_click++;
             if (stat_click > 4) {
-                msgs = ["你有完没完呀？", "你已经摸我" + stat_click + "次了", "非礼呀！救命！OH，My ladygaga"];
+                msgs = ["you have finished it？" "you have touched me" + stat_click + "Not ", "OH-yeah！HELP！OH，My ladygaga"];
                 var i = Math.floor(Math.random() * msgs.length);
                 //showMessage(msgs[i]);
             } else {
-                msgs = ["筋斗云！~我飞！", "我跑呀跑呀跑！~~", "别摸我，大男人，有什么好摸的！", "惹不起你，我还躲不起你么？", "不要摸我了，我会告诉老婆来打你的！", "干嘛动我呀！小心我咬你！"];
+                msgs = ["Somersault ~ I fly "I run and run!" ~ ~ "," Do not touch me, big man, what a good touch! "," Untouchables, I can not hide you? " "Do not touch me, I will tell my Girl frnd to hit you!" "Why do you move me!" Be careful I bite you！"];
                 var i = Math.floor(Math.random() * msgs.length);
                 //showMessage(msgs[i]);
             }
@@ -257,8 +257,8 @@ function showMessage(a, b) {
 
 //拖动
 var _move = false;
-var ismove = false; //移动标记
-var _x, _y; //鼠标离控件左上角的相对位置
+var ismove = false; //Move the mark
+var _x, _y; //The relative position of the mouse from the top left corner of the control
 jQuery(document).ready(function ($) {
     $("#spig").mousedown(function (e) {
         _move = true;
