@@ -1,9 +1,9 @@
 /* spig.js */
-//右键菜单
+//Right-click menu
 jQuery(document).ready(function ($) {
     $("#spig").mousedown(function (e) {
         if(e.which==3){
-        showMessage("秘密通道:<br /><a href=\"http://robotkang.cc/liuyan/\" title=\"留言\">留言</a>    <a href=\"http://robotkang.cc/#blog\" title=\"首页\">首页</a>",10000);
+        showMessage("Secret passage:<br /><a href=\"http://robotkang.cc/liuyan/\" title=\"Leave a Message\">Home</a>    <a href=\"http://ijayaprakash.in/#blog\" title=\"Leave a Message\">Home</a>",10000);
 }
 });
 $("#spig").bind("contextmenu", function(e) {
@@ -11,7 +11,7 @@ $("#spig").bind("contextmenu", function(e) {
 });
 });
 
-//鼠标在消息上时
+//When the mouse is on the message
 jQuery(document).ready(function ($) {
     $("#message").hover(function () {
        $("#message").fadeTo("100", 1);
@@ -24,7 +24,7 @@ jQuery(document).ready(function ($) {
     //$(".mumu").jrumble({rangeX: 2,rangeY: 2,rangeRot: 1});
     $(".mumu").mouseover(function () {
        $(".mumu").fadeTo("300", 0.3);
-       msgs = ["我隐身了，你看不到我", "我会隐身哦！嘿嘿！", "别动手动脚的，把手拿开！", "把手拿开我才出来！"];
+       msgs = ["I'm stealthy，you can not see me", "I will stealth Oh! Hey hey!", "handle away！", "Take Your hand out of my Picutre！"];
        var i = Math.floor(Math.random() * msgs.length);
         showMessage(msgs[i]);
     });
