@@ -3,7 +3,7 @@
 jQuery(document).ready(function ($) {
     $("#spig").mousedown(function (e) {
         if(e.which==3){
-        showMessage("Secret Passage:<br /><a href=\"htp://blog.ijayaprakash.in/\" title=\"Leave a message\">Leave a message</a>    <a href=\"http://robotkang.cc/#blog\" title=\"首页\">首页</a>",10000);
+        showMessage("Secret Passage:<br /><a href=\"hhtp://blog.ijayaprakash.in/\" title=\"Leave a message\">Leave a message</a>    
 }
 });
 $("#spig").bind("contextmenu", function(e) {
@@ -24,7 +24,7 @@ jQuery(document).ready(function ($) {
     //$(".mumu").jrumble({rangeX: 2,rangeY: 2,rangeRot: 1});
     $(".mumu").mouseover(function () {
        $(".mumu").fadeTo("300", 0.3);
-       msgs = ["我隐身了，你看不到我", "我会隐身哦！嘿嘿！", "别动手动脚的，把手拿开！", "把手拿开我才出来！"];
+       msgs = ["I stealth, you can not see me, "" I will stealth Oh! Hey hey! "Do not hands and feet, handle away!！"];
        var i = Math.floor(Math.random() * msgs.length);
         showMessage(msgs[i]);
     });
@@ -38,19 +38,19 @@ jQuery(document).ready(function ($) {
     if (isindex) { //if it is the Homepage
         var now = (new Date()).getHours();
         if (now > 0 && now <= 6) {
-            showMessage(visitor + ' 你是夜猫子呀？还不睡觉，明天起的来么你？', 6000);
+            showMessage(visitor + ' Are you a night owl? Do not sleep, ？', 6000);
         } else if (now > 6 && now <= 11) {
-            showMessage(visitor + ' 早上好，早起的鸟儿有虫吃噢！早起的虫儿被鸟吃，你是鸟儿还是虫儿？嘻嘻！', 6000);
+            showMessage(visitor + ' Good morning, early birds have worms eat Oh! Elderly insects are eaten by birds, are you birds or insects? Hee hee hee！', 6000);
         } else if (now > 11 && now <= 14) {
-            showMessage(visitor + ' 中午了，吃饭了么？不要饿着了，饿死了谁来挺我呀！', 6000);
+            showMessage(visitor + ' At noon, eat it? Do not be hungry, ！', 6000);
         } else if (now > 14 && now <= 18) {
-            showMessage(visitor + ' 下午的时光真难熬！还好有你在！', 6000);
+            showMessage(visitor + ' Afternoon time really tough! Fortunately, you are there！', 6000);
         } else {
-            showMessage(visitor + ' 快来逗我玩吧！', 6000);
+            showMessage(visitor + ' Come and play with me now！', 6000);
         }
     }
     else {
-        showMessage('欢迎' + visitor + '来到亢志军的个人博客《' + title + '》', 6000);
+        showMessage('welcome' + visitor + 'you Just entered into my Personal Blog《' + title + '》', 6000);
     }
     $(".spig").animate({
         top: $(".spig").offset().top + 300,
@@ -62,55 +62,55 @@ jQuery(document).ready(function ($) {
 	});
 });
 
-//鼠标在某些元素上方时
+//When the mouse is above some elements
 jQuery(document).ready(function ($) {
-    $('h2 a').click(function () {//标题被点击时
-        showMessage('正在用吃奶的劲加载《<span style="color:#0099cc;">' + $(this).text() + '</span>》请稍候');
+    $('h2 a').click(function () {//When the title is clicked
+        showMessage('We are loading 《<span style="color:#0099cc;">' + $(this).text() + '</span>》请稍候');
     });
     $('h2 a').mouseover(function () {
-        showMessage('要看看《<span style="color:#0099cc;">' + $(this).text() + '</span>》这篇文章么？');
+        showMessage('To see《<span style="color:#0099cc;">' + $(this).text() + '</span>》这篇文章么？');
     });
     $('#prev-page').mouseover(function(){
-        showMessage('要翻到上一页吗?');
+        showMessage('Would you like to turn to the previous page??');
     });
     $('#next-page').mouseover(function(){
-        showMessage('要翻到下一页吗?');
+        showMessage('Would you like to turn to the next page??');
     });
     $('#index-links li a').mouseover(function () {
-        showMessage('去 <span style="color:#0099cc;">' + $(this).text() + '</span> 逛逛');
+        showMessage('go with <span style="color:#0099cc;">' + $(this).text() + '</span> 逛逛');
     });
     $('.comments').mouseover(function () {
         showMessage('<span style="color:#0099cc;">' + visitor + '</span> 向评论栏出发吧！');
     });
     $('#submit').mouseover(function () {
-        showMessage('确认提交了么？');
+        showMessage('Are you sure to submit?？');
     });
     $('#s').mouseover(function () {
-        showMessage('输入你想搜索的关键词再按Enter(回车)键就可以搜索啦!');
+        showMessage('Enter the keywords you want to search forEnter(Enter key就可以搜索啦!');
     });
     $('#go-prev').mouseover(function () {
-        showMessage('点它可以后退哦！');
+        showMessage('It can be back！');
     });
     $('#go-next').mouseover(function () {
-        showMessage('点它可以前进哦！');
+        showMessage('It can go ahead！');
     });
     $('#refresh').mouseover(function () {
-        showMessage('点它可以重新载入此页哦！');
+        showMessage('It can reload this page！');
     });
     $('#go-home').mouseover(function () {
-        showMessage('点它就可以回到首页啦！');
+        showMessage('It can go back to the home page！');
     });
     $('#addfav').mouseover(function () {
-        showMessage('点它可以把此页加入书签哦！');
+        showMessage('It can add this page to the bookmark！');
     });
     $('#nav-two a').mouseover(function () {
-        showMessage('嘘，从这里可以进入控制面板的哦！');
+        showMessage('Hush, from here you can enter the control panel Oh！');
     });
     $('.post-category a').mouseover(function () {
-        showMessage('点击查看此分类下得所有文章');
+        showMessage('Click to view all articles under this category');
     });
     $('.post-heat a').mouseover(function () {
-        showMessage('点它可以直接跳到评论列表处.');
+        showMessage('Point it can jump directly to the comment list.');
     });
     $('#tho-shareto span a').mouseover(function () {
         showMessage('Do you know? It can share this article'+$(this).attr('title'));
