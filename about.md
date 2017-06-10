@@ -3,7 +3,7 @@ layout: page
 title: 「ABOUT ME」 
 date: 2017-03-01 
 ---
-<a href="/photos/" target="_blank"><img src="https://pbs.twimg.com/profile_images/861993126986121216/uGmhXVJv_400x400.jpg" width="150" height="150" alt="photos"/></a>
+<a href=target="_blank"><img src="https://pbs.twimg.com/profile_images/861993126986121216/uGmhXVJv_400x400.jpg" width="150" height="150" alt=""/></a>
 
 <p>
  <div style="color:#FF6633">
