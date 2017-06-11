@@ -17,3 +17,8 @@ tags: ashole
 4. SQL
 
  <img src="http://i.imgur.com/RseUetA.png"  height="600" width="600" align="left" > 
+ 
+ 
+ 
+ 
+ ---- !more -----
