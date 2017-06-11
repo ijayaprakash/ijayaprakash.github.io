@@ -16,4 +16,4 @@ tags: ashole
 3. JSON 
 4. SQL
 
- <img src="http://i.imgur.com/RseUetA.png"  height="600" width="600"> 
+ <img src="http://i.imgur.com/RseUetA.png"  height="600" width="600" align="left" > 
