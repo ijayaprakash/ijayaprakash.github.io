@@ -1,8 +1,8 @@
 ---
 layout: post
-title: tes12
+title: Basic
 date: 2016-10-25 
-tags: ashole    
+tags: blog    
 ---
 
 
