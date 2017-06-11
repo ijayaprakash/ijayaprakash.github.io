@@ -14,7 +14,7 @@ tags: blog
 !. BASIC HTML 
 2. BASIC CSS
 3. JSON 
-4. SQL
+4. SQL.
 
 
 
@@ -24,7 +24,7 @@ tags: blog
  
  
  
- <img src="http://i.imgur.com/RseUetA.png"  height="600" width="600" align="left" > 
+ <img src="http://i.imgur.com/RseUetA.png"  height="600" width="600" align="left" > .
   
   <br />
   <!--more-->
