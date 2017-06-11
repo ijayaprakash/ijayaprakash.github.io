@@ -22,7 +22,17 @@ published: true
 
 ### 1---- Create a Basic Html : example
 
+<html>
+<blockquote 
+class="imgur-embed-pub" lang="en" data-id="a/s8mnR"><a href="//imgur.com/s8mnR"></a>
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/s8mnR"><a href="//imgur.com/s8mnR"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+</blockquote>
+
+
+
+<script async src="//s.imgur.com/min/embed.js" charset="utf-8">
+</script>
+
+</html>
 
 -----------------
