@@ -20,19 +20,12 @@ published: true
 
 
 
-### 1---- Create a Basic Html : example
-
-<html>
-<blockquote 
-class="imgur-embed-pub" lang="en" data-id="a/s8mnR"><a href="//imgur.com/s8mnR"></a>
-
-</blockquote>
+### 1---- Create a Basic Html : example ###
 
 
 
-<script async src="//s.imgur.com/min/embed.js" charset="utf-8">
-</script>
+![useful image]({{ https://ijayaprakash.github.io/ }}/kangblog.github.io/_posts/joedit.png )
 
-</html>
+
 
 -----------------
