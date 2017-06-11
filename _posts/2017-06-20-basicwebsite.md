@@ -17,4 +17,4 @@ tags: ashole
 4. SQL
 
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/jkTDL"><a href="//imgur.com/jkTDL"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/jkTDL"><a href="//imgur.com/jkTDL"></a></blockquote><script charset="utf-8"></script>
