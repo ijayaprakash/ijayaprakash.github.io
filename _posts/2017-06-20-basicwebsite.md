@@ -16,5 +16,4 @@ tags: ashole
 3. JSON 
 4. SQL
 
-
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/jkTDL"><a href="//imgur.com/jkTDL"></a></blockquote><script charset="utf-8"></script>
+ <img src="http://i.imgur.com/RseUetA.png"  height="42" width="42"> 
