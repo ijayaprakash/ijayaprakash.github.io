@@ -23,7 +23,6 @@ published: true
 ### 1---- Create a Basic Html : example
 
 
-![joedit.png]({{ site.url }}/_posts/joedit.png )
-
+<img src=http://imgur.com/BRzDtDr>
 
 -----------------
