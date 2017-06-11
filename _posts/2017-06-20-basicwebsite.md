@@ -17,12 +17,14 @@ tags: ashole
 4. SQL
 
 
-1. Example of html
+## 1. Example of html
  <img src="http://i.imgur.com/RseUetA.png"  height="600" width="600" align="left" > 
+  
+  
   <!--more-->
 
 
-2. Example of cSS 
+## 2. Example of cSS 
 
 <p>    body {
     font-family: sans-serif;
@@ -73,5 +75,5 @@ tags: ashole
 
 </p>
 
- 
+ ---------------------
 
