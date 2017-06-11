@@ -11,7 +11,8 @@ published: true
 
 - ：*Welcome to my blog! I'll be with you until you leave me.*
 ...*
-REquirements :
+
+>. REquirements :
 
 ### 1. Basic Html
 ### 2. Json
@@ -27,7 +28,7 @@ REquirements :
 
 
 
-
+[Sublime Text 3](/_posts/joedit.png "image")
 
   
 -----------------
