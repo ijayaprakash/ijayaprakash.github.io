@@ -24,7 +24,7 @@ published: true
 
 
 
-![useful image]({{ https://ijayaprakash.github.io/ }}/kangblog.github.io/_posts/joedit.png )
+![]({{site.baseurl}}/_posts/joedit.png )
 
 
 
