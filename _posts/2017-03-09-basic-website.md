@@ -24,7 +24,7 @@ published: true
 
 
 
-<img src="/images/posts/Xcode8/image2.png" height="160" width="600"> 
+<img src="/posts/joedit.png" height="160" width="600"> 
 
 
 
