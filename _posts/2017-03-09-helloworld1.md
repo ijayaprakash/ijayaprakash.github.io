@@ -23,12 +23,7 @@ published: true
 ### 1---- Create a Basic Html : example
 
 
-![joedit.png]({{site.baseurl}}/_posts/joedit.png)
+![useful image]({{ site.url }} kangblog.github.io/_posts/joedit.png )
 
 
-
-
-[Sublime Text 3](/_posts/joedit.png "image")
-
-  
 -----------------
