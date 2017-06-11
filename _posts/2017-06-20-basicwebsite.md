@@ -11,7 +11,7 @@ tags: blog
 
 ##REQUIREMENTS
 
-!. BASIC HTNL 
+!. BASIC HTML 
 2. BASIC CSS
 3. JSON 
 4. SQL
