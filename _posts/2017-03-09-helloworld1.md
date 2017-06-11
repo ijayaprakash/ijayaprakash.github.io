@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Create a Basic website with Data base 
-date: 2017-03-10 
-tag: 
+title: Create a Basic website with Data base
+date: {}
+tag: null
+published: true
 ---
 
       
@@ -21,11 +22,12 @@ REquirements :
 ### 1---- Create a Basic Html : example
 
 
+![joedit.png]({{site.baseurl}}/_posts/joedit.png)
+
+
+
 
 
 
   
 -----------------
- 
-
-
