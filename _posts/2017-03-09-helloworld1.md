@@ -1,27 +1,30 @@
 ---
 layout: post
-title: Hello World
+title: Create a Basic website with Data base 
 date: 2017-03-10 
 tag: 
 ---
 
-
- ![hello world](http://omjh2j5h3.bkt.clouddn.com/2017-03-09.jpg)
-
-
-
-　　
-   
+      
 -----------------
 
 - ：*Welcome to my blog! I'll be with you until you leave me.*
+...*
+REquirements :
+
+### 1. Basic Html
+### 2. Json
+##  3. css For Styles
 
 
--：Hello world！I'm coming！*
+
+### 1---- Create a Basic Html : example
 
 
-：*You just try, the rest of the time...*
 
+
+
+  
 -----------------
  
 
