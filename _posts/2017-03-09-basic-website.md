@@ -23,7 +23,7 @@ published: true
 ### 1---- Create a Basic Html : example
 
 
-![useful image]({{ base_path }}/_posts/joedit.png )
+![useful image]({{ site.url }}/_posts/joedit.png )
 
 
 -----------------
