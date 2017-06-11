@@ -24,7 +24,7 @@ published: true
 
 
 
-![]({{site.baseurl}}/_posts/joedit.png )
+<img src="/images/posts/Xcode8/image2.png" height="160" width="600"> 
 
 
 
