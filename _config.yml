@@ -2,7 +2,7 @@
 title: iJAYAPRAKASH
 subtitle: I'm Just a Myth :) 
 avatarTitle: Joshi
-# 头像里面的描述
+
 avatarDesc: Bonjour/
 url: "http://ijayaprakash.in"
 
@@ -41,8 +41,8 @@ blog_button:
 nav:
     - {title: Articles, description: archive, url: '/archive'}   
     - {title: Label, description: tags, url: '/tags'}   
-    - {title: Leave a message, description: liuyan, url: '/liuyan'}
-    - {title: Resources, description: ziyuan, url: '/ziyuan'}
+    - {title: Leave a message, description: liuyan, url: '/Contact'}
+    - {title: Resources, description: ziyuan, url: '/Games'}
     - {title: about me, description: about, url: '/about'}
 
           
