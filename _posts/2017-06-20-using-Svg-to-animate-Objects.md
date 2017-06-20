@@ -21,7 +21,7 @@ tags: blog
 
 <input type="button" value="Click to re animate" onClick="window.location.reload()">
 
-<svg align="center" width="100%" height="400"> 
+<svg align="right" width="300" height="400"> 
 
 <g id="R1" transform="translate(250 250)"> 
   <circle cx="50" cy="50" r="50" stroke="black" stroke-width="4" fill="blue"">
