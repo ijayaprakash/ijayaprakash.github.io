@@ -30,6 +30,7 @@ tags: blog
   <animate attributeName="cy" dur="3s" values="10; 60; 10" repeatCount="indefinite" />
   <animate id="R1" attributeName="fill" from="red" to="blue" dur="8s" fill="Freeze" />
   <animate id="R1" attributeName="fill" from="green" to="purple" dur="3s" fill="freeze" />
+  <set attributeName="stroke" to="red" begin="mouseover" end="mouseout"/>                                                                                     
   </circle>
 </g>
 
@@ -39,8 +40,21 @@ tags: blog
 <use xlink:href="#R1" transform="rotate(288 390 150)" />
 </svg> 
 
-
-
+                                                     
+                                                     
+<strong><sup><h1>RECTANGLE OBJECT</h1>  
+</sup></strong>
+                                                     
+ <svg  width="300" height="300">
+<g transform="translate(150,150)">
+		<rect x="-50" y="-50" width="100" height="100" fill="#00599b" stroke-width="5px">
+			<animate attributeType="CSS" attributeName="opacity" from="1" to="0" dur="5s" repeatCount="indefinite" />
+			<animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0" to="360" begin="0s" dur="2s" repeatCount="indefinite"/>
+			<set attributeName="stroke" to="red" begin="mouseover" end="mouseout"/>
+		</rect>
+	</g>
+	
+</svg>
 </body>
 
 </html>
