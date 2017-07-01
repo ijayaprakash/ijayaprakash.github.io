@@ -4,21 +4,28 @@ title: Draw Objects or images into the Canvas
 date: 2017-06-30 
 tags: blog    
 ---
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<style>
-canvas {
-    border:1px solid #d3d3d3;
-    align:right;
-   
-   
-}
-</style>
+
 </head>
 <body onload="startGame()">
-<script>
+
+    <style>
+canvas {
+    border:1px solid #d3d3d3;
+    
+   
+   
+
+}
+</style>
+    
+    <script>
 
 var myGamePiece;
 
@@ -32,6 +39,7 @@ var myGameArea = {
     start : function() {
         this.canvas.width = 550;
         this.canvas.height = 660;
+        this.
         this.context = this.canvas.getContext("2d");
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);
         this.frameNo = 0;
