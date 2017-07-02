@@ -161,7 +161,7 @@ function accelerate(n) {
 </script>
 <br>
 <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
-<p>Click To Accerelate up :)</p>
+<p>Click to Accelerate up :) </p>
 <input type="button" value="New Game" onClick="window.location.reload()">
 
 </body>
