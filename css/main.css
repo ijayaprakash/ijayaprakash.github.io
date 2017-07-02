@@ -722,7 +722,7 @@ img::-moz-selection {
     list-style-type: none; 
   }
 
-/*blog导航栏*/
+/*blog*/
   .btn, .navigation__item a {
     display: inline-block;
     margin-right: 0px;
@@ -766,7 +766,7 @@ img::-moz-selection {
 
   .navigation--social a {
     border: 0px;
-    padding: 10px 10px 10px 10px; 
+    padding: 367px 10px 10px 10px; 
   }
   .navigation--social a .label {
     display: none; 
