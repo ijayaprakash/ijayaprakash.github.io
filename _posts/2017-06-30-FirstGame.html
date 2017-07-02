@@ -16,12 +16,7 @@ tags: blog
 canvas {
     border:1px solid #d3d3d3;
     background:url(/images/bg.jpg)
-    position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 4;
-    margin:auto;
+    
 </style>
 </head>
 <body onload="startGame()">
@@ -43,7 +38,7 @@ function startGame() {
 var myGameArea = {
     canvas : document.createElement("canvas"),
     start : function() {
-        this.canvas.width = 900;
+        this.canvas.width = 700;
         this.canvas.height = 400;
         this.context = this.canvas.getContext("2d");
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);
