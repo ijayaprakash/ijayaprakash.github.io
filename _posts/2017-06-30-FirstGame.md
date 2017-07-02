@@ -15,7 +15,7 @@ tags: blog
 				position: absolute;
 				top: 250px;
 				left:450px;
-				
+				background:url(/images/bg.jpg)
 			}
 		</style>
 </head>
