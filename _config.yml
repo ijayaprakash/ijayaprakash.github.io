@@ -14,13 +14,14 @@ comment:
 
 # Social
 social:
-    # twitter: 
+    twitter:twitter.com/jaiprince17 
     mail: IJAYAPRAKASHJOSHI@gmail.com
     
  
 # Google Analytics
-# id:    
-#  host: auto  
+ Google Analytics:
+ id:UA-100696523-2    
+ host: auto  
 
 
 
