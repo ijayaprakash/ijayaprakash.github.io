@@ -20,7 +20,7 @@ tags: blog
 			canvas {
 				position: absolute;
 				top: 250px;
-				left:450px;
+				left:514px;
 				background:url(/images/bg.jpg)
 			}
 		</style>
