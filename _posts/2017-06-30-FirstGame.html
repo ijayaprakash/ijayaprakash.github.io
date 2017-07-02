@@ -28,7 +28,7 @@ var myScore;
 var myBackground;
 
 function startGame() {
-    myGamePiece = new component(30, 30, "/images/spig.png", 10, 120 ,"image");
+    myGamePiece = new component(40, 40, "/images/spig.png", 10, 120 ,"image");
     myBackground = new component(656, 270, "/root/Desktop/bg.jpg",0 , 0, "background");
     myGamePiece.gravity = 0.05;
     myScore = new component("30px", "Consolas", "black", 280, 40, "text");
@@ -38,7 +38,7 @@ function startGame() {
 var myGameArea = {
     canvas : document.createElement("canvas"),
     start : function() {
-        this.canvas.width = 700;
+        this.canvas.width = 600;
         this.canvas.height = 400;
         this.context = this.canvas.getContext("2d");
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);
