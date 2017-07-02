@@ -161,7 +161,7 @@ function accelerate(n) {
 </script>
 <br>
 <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
-<p> use the Button to higher up the goku :)</p>
+<p>Click To Accerelate up :)</p>
 <input type="button" value="New Game" onClick="window.location.reload()">
 
 </body>
