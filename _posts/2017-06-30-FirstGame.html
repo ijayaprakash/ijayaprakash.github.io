@@ -13,7 +13,7 @@ tags: blog
 <style>
 canvas {
     border:1px solid #d3d3d3;
-    background:url( kangblog.github.io/images/bg.jpg)
+    background:url(/images/bg.jpg)
 </style>
 </head>
 <body onload="startGame()">
@@ -25,7 +25,7 @@ var myScore;
 var myBackground;
 
 function startGame() {
-    myGamePiece = new component(30, 30, "kangblog.github.io/images/spig.png", 10, 120 ,"image");
+    myGamePiece = new component(30, 30, "/images/spig.png", 10, 120 ,"image");
     myBackground = new component(656, 270, "/root/Desktop/bg.jpg",0 , 0, "background");
     myGamePiece.gravity = 0.05;
     myScore = new component("30px", "Consolas", "black", 280, 40, "text");
