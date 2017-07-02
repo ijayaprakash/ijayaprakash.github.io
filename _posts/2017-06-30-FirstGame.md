@@ -6,11 +6,17 @@ tags: blog
 ---
 
 
-<!DOCTYPE html>
+
 <html>
 	<head>
 		<title>Save Goku</title>
-		<style>
+		
+</head>
+
+
+
+<body>
+<style>
 			canvas {
 				position: absolute;
 				top: 250px;
@@ -18,10 +24,10 @@ tags: blog
 				background:url(/images/bg.jpg)
 			}
 		</style>
-</head>
+		</body>
+
 <body onload="startGame()">
 <script>
-
 var myGamePiece;
 var myObstacles = [];
 var myScore;
