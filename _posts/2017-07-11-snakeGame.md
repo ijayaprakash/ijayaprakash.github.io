@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Snake Game :) 
+title: Snake Game 
 date: 2017-07-11 
 tags: blog    
 ---
