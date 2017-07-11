@@ -6,7 +6,7 @@ tags: blog
 ---
 
 
-
+<html>
 
 <canvas id="gc" width ="400" height="400"> </canvas>
 <script>
@@ -96,3 +96,4 @@ function.keyPush(evt)  {
 
 
 </script>
+</html>
